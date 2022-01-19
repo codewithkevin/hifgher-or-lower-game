@@ -28,6 +28,7 @@ print(account_b_followers)
 
 is_on = True
 
+
 while is_on:
     game.compare()
     is_correct = game.check_answer(account_followers, account_b_followers)
@@ -35,6 +36,7 @@ while is_on:
     if is_correct:
         print(f"You had it right")
         print()
-
     else:
         print("You had it wrong")
+
+
